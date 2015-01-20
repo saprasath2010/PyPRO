@@ -1,2 +1,0 @@
-# PyPRO
-Python Programs
