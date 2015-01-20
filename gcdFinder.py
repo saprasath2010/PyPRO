@@ -1,10 +1,10 @@
 #! /usr/bin/python
 from fractions import gcd
 
-def findGCDFromListOfNumbers(numbersList):
-    result = numbersList[0];
-    for num in numbersList[1:]:
-        result = gcd(result,num)
+def findGCDFromListOfNumbers(numberslist):
+    result = numberslist[0]
+    for num in numberslist[1:]:
+        result = gcd(result , num)
     return result
 
 
